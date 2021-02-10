@@ -1,0 +1,120 @@
+:root{
+    --Or-color: #FA4A0C;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    color: gray;
+}
+h3{
+    color: var(--Or-color);
+}
+a:hover{
+    background-color:  rgb(178, 183, 199);
+}
+.container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link{
+    margin-left: 55px;
+    text-decoration: none;
+    color: black;
+}
+.playstore-btn{
+    background-color: var(--Or-color);
+    color: white;
+}
+.appstore-btn{
+    background-color: transparent;
+    color: white;
+    border:1px solid white;
+}
+
+.app-steps{
+    width: 40%;
+}
+
+/* header */
+#header{
+    padding: 20px;
+    margin: 0% 5%;
+}
+
+a.active{
+    color:var(--Or-color) ;
+}
+/* food-app */
+#food-app{
+    background-image: url("img/Rectangle\ 48.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 5% 25% 13%;
+    margin-bottom: 40%;
+    line-height: 55px;
+    position: relative;
+}
+.food-app-img{
+    width: 40%;
+    position: absolute;
+    top: 480px;
+    left: 400px;
+}
+.tittle-app-work{
+    text-align: center;
+}
+h1.tittle-app-work:after{
+    content: "";
+    position: absolute;
+    background-color: #d0cece;
+    height: 2px;
+    width: 60%;
+    right: 20%;
+    bottom: -95%;
+}
+.banner-btn{
+    border-radius: 30px;
+    padding: 15px 50px;
+}
+
+/* pre-footer-dawonload-app */
+#pre-footer-dawonload-app{
+    background-image: url("img/Rectangle\ 47.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 8%;
+    line-height: 25px;
+}
+.pre-footer-btn{
+    border-radius: 10px;
+    padding: 15px 31px;
+    
+}
+.footer-btn{
+    margin: 6% 32% 0%;
+}
+/* footer */
+#footer{
+    margin: 2% 8%;
+}
+#social-icons{
+    color: var(--Or-color);
+    font-size: 20px;
+}
+.icon{
+    margin-right: 15px;
+}
